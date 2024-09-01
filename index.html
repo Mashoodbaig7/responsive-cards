@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Cards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .card-image {
+            transition: transform 0.3s ease-in-out;
+        }
+        .card-image:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Card Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Responsive Cards</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250/4A90E2/ffffff?text=Card+1" alt="Card 1" class="card-image w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Card Title 1</h3>
+                        <p class="text-gray-700 mb-4">This is a brief description of the card content. It provides a short overview of what the card is about.</p>
+                        <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">Read More</a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250/50E3C2/ffffff?text=Card+2" alt="Card 2" class="card-image w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Card Title 2</h3>
+                        <p class="text-gray-700 mb-4">This is a brief description of the card content. It provides a short overview of what the card is about.</p>
+                        <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">Read More</a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250/9013FE/ffffff?text=Card+3" alt="Card 3" class="card-image w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Card Title 3</h3>
+                        <p class="text-gray-700 mb-4">This is a brief description of the card content. It provides a short overview of what the card is about.</p>
+                        <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">Read More</a>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250/F5A623/ffffff?text=Card+4" alt="Card 4" class="card-image w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Card Title 4</h3>
+                        <p class="text-gray-700 mb-4">This is a brief description of the card content. It provides a short overview of what the card is about.</p>
+                        <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
